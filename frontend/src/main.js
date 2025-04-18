@@ -14,7 +14,7 @@ const redPattern = new L.StripePattern({
   spaceWeight: 4,
   color: 'red',
   opacity: 1,
-  orientation: 'diagonal'
+  angle: 45        // ← 45° for diagonal stripes
 });
 redPattern.addTo(map);
 
@@ -23,7 +23,7 @@ const yellowPattern = new L.StripePattern({
   spaceWeight: 4,
   color: 'yellow',
   opacity: 1,
-  orientation: 'diagonal'
+  angle: 45        // same diagonal orientation
 });
 yellowPattern.addTo(map);
 
