@@ -1,1 +1,0 @@
-// Hovedfil for API-endepunkter
